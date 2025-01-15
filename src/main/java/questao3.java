@@ -39,8 +39,8 @@ public class questao3 {
             }
         }
 
-        System.out.println("Menor valor de faturamento diario: " + menorValor);
-        System.out.println("Maior valor de faturamento diario: " + maiorValor);
+        System.out.println("Menor valor de faturamento diario: " + String.format("%.2f", menorValor));
+        System.out.println("Maior valor de faturamento diario: " + String.format("%.2f",maiorValor));
         System.out.println("Numero de dias com faturamento acima da media: " + diasAcimaDaMedia);
     }
 }

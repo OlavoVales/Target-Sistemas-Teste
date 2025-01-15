@@ -4,7 +4,7 @@ public class questao5 {
     public static void main(String[] args) {
         Scanner sc1 = new Scanner(System.in);
 
-        System.out.println("Digite a string desejada: ");
+        System.out.print("Digite a string desejada: ");
         String stringDigitada = sc1.nextLine();
 
         char[] caracteres = stringDigitada.toCharArray();
