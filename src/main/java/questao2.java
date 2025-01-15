@@ -36,7 +36,6 @@ public class questao2 {
             if (segundoNumero == numeroDigitado){
                 return true;
             }
-
         }
 
         return false;
